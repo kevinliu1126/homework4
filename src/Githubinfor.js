@@ -33,7 +33,7 @@ class UserGithub extends React.Component {
     render() {
     return (
     <div>
-    <img src={this.state.avatarUrl} /><br/>
+    <img src={this.state.avatarUrl} alt=""/><br/>
     <h3>user name:{this.state.username}</h3>
     <a href={this.state.githubtUrl}>Github Link</a>
     <h3>location:{this.state.locate}</h3>
